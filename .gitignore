@@ -1,0 +1,67 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Node.js y compilaciones
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+.vercel/
+
+# Variables locales y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos temporales, logs y sistema operativo
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+.ipynb_checkpoints/
+
+# Modelos y artefactos de Machine Learning
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.keras
+
+# Respaldos y archivos de bases de datos
+*.bak
+*.trn
+*.mdf
+*.ndf
+*.ldf
+*.dump
+*.backup
+*.sql.gz
+*.sql.zip
+*.sqlite
+*.sqlite3
+
+# Datos locales y exportaciones potencialmente pesadas
+/data/
+/artifacts/
